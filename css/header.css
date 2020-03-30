@@ -1,0 +1,85 @@
+header {
+    position: relative;
+    background-blend-mode: multiply;
+    background-image: url("../images/header-bg.jpg");
+    background-color: #00a1eb;
+    background-size: cover;
+    width: 100%;
+    color: #ffffff;
+}
+
+.hamburger-menu {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hamburger-menu #menu-toggle {
+    display: none;
+}
+
+.logo {
+    padding: 50px 0 50px 50px;
+    font-size: 25px;
+    margin-right: auto;
+}
+
+.logo #swieze {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.logo #ryby {
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+}
+
+.logo #com {
+    font-family: Montserrat, sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.menu-box {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 50px 50px 50px 0;
+}
+
+.menu-box a {
+    padding-right: 10px;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+a[href="tel:500110110"] {
+    background-color: #00a1eb;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+h1 {
+
+    padding-top: 150px;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 79px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+header p {
+    font-family: Hind, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 5px;
+    margin: 10px;
+    padding-bottom: 200px;
+}
