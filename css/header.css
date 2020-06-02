@@ -3,7 +3,7 @@ header {
     position: relative;
     background-blend-mode: multiply;
     background-image: url("../images/header-bg.jpg");
-    background-color: #1e689a;
+    background-color: rgba(0, 161, 235, 0.5);
     background-size: cover;
     width: 100%;
     color: #ffffff;
@@ -58,7 +58,7 @@ header {
 }
 
 a[href="tel:500110110"] {
-    background-color: #00a1eb;
+    background-color: var(--blue);
     border-radius: 5px;
     padding: .625em;
 }

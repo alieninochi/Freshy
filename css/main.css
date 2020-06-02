@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Hind:400,700|Montserrat:200,400,700&display=swap');
 @import url('header.css');
-@import url('o-nas.css');
-@import url('asortyment.css');
-@import url('advantages.css');
-@import url('kontakt.css');
+@import url('about-us.css');
+@import url('assortment.css');
+@import url('cooperation.css');
+@import url('contacts.css');
 @import url('footer.css');
 
 *, *::before, *::after {
   box-sizing: border-box;
+}
+
+:root {
+  --blue: #00a1eb;
 }
 
 body {

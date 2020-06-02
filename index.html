@@ -7,7 +7,7 @@
   <title>Freshy</title>
 </head>
 <body>
-<header>
+<header id="home">
   <!--hamburger menu-->
   <div class="hamburger-menu">
     <div class="logo"><span id="swieze">Swieze</span><span id="ryby">ryby</span><span id="com">.com</span></div>
@@ -18,11 +18,11 @@
     </label>
 
     <nav class="menu-box">
-      <a href="" class="menu-item">Home</a>
-      <a href="" class="menu-item">O nas</a>
-      <a href="" class="menu-item">Asortyment</a>
-      <a href="" class="menu-item">Współpraca</a>
-      <a href="" class="menu-item">Kontakt</a>
+      <a href="#home" class="menu-item">Home</a>
+      <a href="#about-us" class="menu-item">O nas</a>
+      <a href="#assortment" class="menu-item">Asortyment</a>
+      <a href="#cooperation" class="menu-item">Współpraca</a>
+      <a href="#contacts" class="menu-item">Kontakt</a>
       <a href="tel:500110110" class="menu-item">Tel. 500 110 110 </a>
     </nav>
   </div>
@@ -32,26 +32,30 @@
 </header>
 
 <main>
-  <section class="o-nas">
-    <h2>O nas</h2>
-    <img src="images/o-nas.jpg">
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Morbi molestie egestas massa, et sollicitudin urna mattis faucibus.
-      Praesent sagittis laoreet est, et efficitur enim lacinia id.
-      Aenean imperdiet diam nec efficitur commodo. Morbi at purus tempus tellus tempus placerat.
-      Sed faucibus sed elit at lacinia.
-      Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-      Praesent posuere orci justo, eu fermentum quam cursus quis.
-      Proin consequat molestie magna accumsan placerat.
-      Nulla quis consectetur tortor.
-      Nam viverra consectetur risus iaculis ultrices.
-    </p>
-    <a href="tel:500 110 110" class="ph-number">Tel. 500 110 110</a>
-    <a href="#" class="history">Historia naszej firmy</a>
+  <section class="about-us" id="about-us">
+    <div class="store-img">
+      <img src="images/o-nas.jpg" alt="nasz sklep">
+    </div>
+    <div class="information">
+      <h2 class="about-us-header">O nas</h2>
+      <p class="information-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Morbi molestie egestas massa, et sollicitudin urna mattis faucibus.
+        Praesent sagittis laoreet est, et efficitur enim lacinia id.
+        Aenean imperdiet diam nec efficitur commodo. Morbi at purus tempus tellus tempus placerat.
+        Sed faucibus sed elit at lacinia.
+        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+        Praesent posuere orci justo, eu fermentum quam cursus quis.
+        Proin consequat molestie magna accumsan placerat.
+        Nulla quis consectetur tortor.
+        Nam viverra consectetur risus iaculis ultrices.
+      </p>
+      <a href="tel:500 110 110" class="phone-number">Tel. 500 110 110</a>
+      <a href="#" class="history">Historia naszej firmy</a>
+    </div>
   </section>
 
-  <section class="asortyment">
+  <section class="assortment" id="assortment">
     <h2>Asortyment</h2>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -115,7 +119,7 @@
     <a href="#">ZOBACZ CAŁY ASORTYMENT</a>
   </section>
 
-  <section class="advantages">
+  <section class="cooperation" id="cooperation">
     <div class="catering">
       <img src="images/catering.png">
       <h3>Catering</h3>
@@ -146,7 +150,7 @@
     </div>
   </section>
 
-  <section class="contact">
+  <section class="contacts" id="contacts">
     <h2>Kontakt</h2>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
