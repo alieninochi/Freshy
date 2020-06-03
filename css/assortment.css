@@ -1,0 +1,44 @@
+.assortment {
+    width: 100%;
+    height: 100vh;
+}
+
+.assortment-info {
+    margin: 5em 0 3em 0;
+}
+
+.assortment-header, .assortment-text {
+    text-align: center;
+}
+
+.assortment-header {
+    color: var(--blue);
+    font-family: Montserrat, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.assortment-header::after {
+    content: '';
+    display: block;
+    width: 85px;
+    border: 1px solid #a1a1a1;
+    margin: 1em auto;
+}
+
+.assortment-text {
+    margin: 0 auto;
+    width: 50%;
+    color: #737373;
+    font-family: Hind, sans-serif;
+    font-size: .875em;
+}
+
+.assortment-slider {
+    display: flex;
+}
+
+.assortment-img {
+    width: 270px;
+}
