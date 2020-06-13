@@ -35,10 +35,59 @@
     font-size: .875em;
 }
 
-.assortment-slider {
-    display: flex;
+.slider {
+    position: relative;
 }
 
-.assortment-img {
+.slider {
+    display: flex;
+    justify-content: space-around;
+}
+
+.assortment-item {
     width: 270px;
+    height: 270px;
+    background-size: cover;
+}
+
+.dorada {
+    background-image: url("../images/dorada-swieza.png");
+}
+
+.salmon {
+    background-image: url("../images/pstrag.jpg");
+}
+
+.shrimps {
+    background-image: url("../images/krewetki.jpg");
+}
+
+.mackerel-w {
+    background-image: url("../images/makrela-wedzona.jpg");
+}
+
+.lobster {
+    background-image: url("../images/lobster.jpg");
+}
+
+.tuna {
+    background-image: url("../images/tuna-fish.jpg");
+}
+
+.mussels {
+    background-image: url("../images/mussels.jpg");
+}
+
+.mackerel-m {
+    background-image: url("../images/mackerel.jpg");
+}
+
+.assortment-item__header, .assortment-item__price, .assortment-item__text {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.assortment-item__text {
+    display: none;
 }
