@@ -63,7 +63,7 @@ a[href="tel:500110110"] {
     padding: .625em;
 }
 
-h1 {
+.main-header {
     padding-top: .75em;
     font-family: Montserrat, sans-serif;
     font-weight: bold;
@@ -74,7 +74,7 @@ h1 {
     margin: .25em;
 }
 
-header p {
+.main-subheader {
     font-family: Hind, sans-serif;
     font-size: 1.375em;
     text-align: center;
