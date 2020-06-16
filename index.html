@@ -27,8 +27,8 @@
     </nav>
   </div>
 
-  <h1>świeże ryby</h1>
-  <p>Zobacz, co jeszcze oferujemy!</p>
+  <h1 class="main-header">świeże ryby</h1>
+  <p class="main-subheader"> Zobacz, co jeszcze oferujemy!</p>
 </header>
 
 <main>
@@ -68,8 +68,15 @@
       </p>
     </div>
 
-    <div class="assortment-slider">
-      <div class="slider">
+    <div class="slider">
+      <button class="slider-control left-control">
+        <div class="left"></div>
+      </button>
+      <button class="slider-control right-control">
+        <div class="right"></div>
+      </button>
+
+      <div class="slider-wrapper">
         <div class="assortment-item dorada">
           <h3 class="assortment-item__header">Dorada świeża</h3>
           <p class="assortment-item__price">14,99 ZŁ/KG</p>
@@ -108,51 +115,48 @@
             Dzięki uwędzeniu makrela zyskuje niesamowity aromat i smak.
           </p>
         </div>
-      </div>
-
-      <div class="slider">
-          <div class="assortment-item lobster">
-            <h3 class="assortment-item__header">Królewski homar</h3>
-            <p class="assortment-item__price">21,99 ZŁ/SZT</p>
-            <p class="assortment-item__text">
-              Jeden z najbardziej cenionych skorupiaków. Jego mięso jest białe, chude, bardzo delikatne i smaczne.
-              Najwięcej mięsa znajduje się odwłoku. Homara można podawać zarówno na ciepło, jak i na zimno.
-            </p>
-          </div>
-          <div class="assortment-item tuna">
-            <h3 class="assortment-item__header">Filet z tuńczyka</h3>
-            <p class="assortment-item__price">24,99 ZŁ/KG</p>
-            <p class="assortment-item__text">
-              Tuńczyka żółtopłetwy to jeden z najsmaczniejszych gatunków tuńczyka poławianych na świecie.
-              Charakteryzuje się bardzo delikatnym smakiem, znakomicie nadaje się do wielu potraw kuchni azjatyckiej oraz.
-            </p>
-          </div>
-          <div class="assortment-item mussels">
-            <h3 class="assortment-item__header">Małże marynowane</h3>
-            <p class="assortment-item__price">17,99 ZŁ/KG</p>
-            <p class="assortment-item__text">
-              Jeśli lubisz smaki owoców morza i szukasz ciekawego pomysłu, jak zaskoczyć swoich bliskich, te małże są dla ciebie idealnym rozwiązaniem.
-              Nie musisz popisywać się znajomością technik kulinarnych, bo małże są gotowe do użycia.
-              Możesz podać je samodzielnie, jako przystawkę, bądź jako składnik sałatek.
-              Zamarynowane, pikantne, doskonale podkreślą smak warzyw, czy przełamią ich delikatność.
-            </p>
-          </div>
-          <div class="assortment-item mackerel-m">
-            <h3 class="assortment-item__header">Makrela mrożona</h3>
-            <p class="assortment-item__price">4,99 ZŁ/KG</p>
-            <p class="assortment-item__text">
-              Patroszona makrela - jest to rodzaj ryby morskiej okoniokształtnej.
-              Ceniona w kuchni polskiej ze względu na wartości smakowe i odżywcze.
-              Zawarte w niej nienasycone kwasy tłuszczowe omega-3 chronią przed chorobami układu krążenia, a szereg witamin wzmacnia organizm.
-              Makrela jest rybą wyjątkową ze względu na dużą zawartość selenu, który ma wpływ na odporność człowieka.
-              Ponadto dodatkowo chroni organizm przed wolnymi rodnikami, obniża ciśnienie i wpływa korzystnie na mózg.
-              Makrela to samo zdrowie!
-            </p>
-          </div>
+        <div class="assortment-item lobster">
+          <h3 class="assortment-item__header">Królewski homar</h3>
+          <p class="assortment-item__price">21,99 ZŁ/SZT</p>
+          <p class="assortment-item__text">
+            Jeden z najbardziej cenionych skorupiaków. Jego mięso jest białe, chude, bardzo delikatne i smaczne.
+            Najwięcej mięsa znajduje się odwłoku. Homara można podawać zarówno na ciepło, jak i na zimno.
+          </p>
+        </div>
+        <div class="assortment-item tuna">
+          <h3 class="assortment-item__header">Filet z tuńczyka</h3>
+          <p class="assortment-item__price">24,99 ZŁ/KG</p>
+          <p class="assortment-item__text">
+            Tuńczyka żółtopłetwy to jeden z najsmaczniejszych gatunków tuńczyka poławianych na świecie.
+            Charakteryzuje się bardzo delikatnym smakiem, znakomicie nadaje się do wielu potraw kuchni azjatyckiej oraz.
+          </p>
+        </div>
+        <div class="assortment-item mussels">
+          <h3 class="assortment-item__header">Małże marynowane</h3>
+          <p class="assortment-item__price">17,99 ZŁ/KG</p>
+          <p class="assortment-item__text">
+            Jeśli lubisz smaki owoców morza i szukasz ciekawego pomysłu, jak zaskoczyć swoich bliskich, te małże są dla ciebie idealnym rozwiązaniem.
+            Nie musisz popisywać się znajomością technik kulinarnych, bo małże są gotowe do użycia.
+            Możesz podać je samodzielnie, jako przystawkę, bądź jako składnik sałatek.
+            Zamarynowane, pikantne, doskonale podkreślą smak warzyw, czy przełamią ich delikatność.
+          </p>
+        </div>
+        <div class="assortment-item mackerel-m">
+          <h3 class="assortment-item__header">Makrela mrożona</h3>
+          <p class="assortment-item__price">4,99 ZŁ/KG</p>
+          <p class="assortment-item__text">
+            Patroszona makrela - jest to rodzaj ryby morskiej okoniokształtnej.
+            Ceniona w kuchni polskiej ze względu na wartości smakowe i odżywcze.
+            Zawarte w niej nienasycone kwasy tłuszczowe omega-3 chronią przed chorobami układu krążenia, a szereg witamin wzmacnia organizm.
+            Makrela jest rybą wyjątkową ze względu na dużą zawartość selenu, który ma wpływ na odporność człowieka.
+            Ponadto dodatkowo chroni organizm przed wolnymi rodnikami, obniża ciśnienie i wpływa korzystnie na mózg.
+            Makrela to samo zdrowie!
+          </p>
+        </div>
       </div>
     </div>
 
-    <a href="#">ZOBACZ CAŁY ASORTYMENT</a>
+    <a href="#" class="full-assortment">ZOBACZ CAŁY ASORTYMENT</a>
   </section>
 
   <section class="cooperation" id="cooperation">
@@ -246,5 +250,6 @@
   </footer>
 </main>
 
+<script src="js/slider.js"></script>
 </body>
 </html>

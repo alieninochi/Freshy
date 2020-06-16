@@ -1,93 +1,174 @@
 .assortment {
-    width: 100%;
-    height: 100vh;
+  width: 100%;
+  height: 100vh;
 }
 
 .assortment-info {
-    margin: 5em 0 3em 0;
+  margin: 5em 0 3em 0;
 }
 
 .assortment-header, .assortment-text {
-    text-align: center;
+  text-align: center;
 }
 
 .assortment-header {
-    color: var(--blue);
-    font-family: Montserrat, sans-serif;
-    font-size: 2em;
-    text-transform: uppercase;
-    font-weight: bold;
+  color: var(--blue);
+  font-family: Montserrat, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .assortment-header::after {
-    content: '';
-    display: block;
-    width: 85px;
-    border: 1px solid #a1a1a1;
-    margin: 1em auto;
+  content: '';
+  display: block;
+  width: 85px;
+  border: 1px solid #a1a1a1;
+  margin: 1em auto;
 }
 
 .assortment-text {
-    margin: 0 auto;
-    width: 50%;
-    color: #737373;
-    font-family: Hind, sans-serif;
-    font-size: .875em;
+  margin: 0 auto;
+  width: 50%;
+  color: #737373;
+  font-family: Hind, sans-serif;
+  font-size: .875em;
 }
 
 .slider {
-    position: relative;
+  position: relative;
 }
 
-.slider {
-    display: flex;
-    justify-content: space-around;
+.slider-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+  width: 90%;
+  margin: 0 auto;
 }
 
-.assortment-item {
-    width: 270px;
-    height: 270px;
-    background-size: cover;
+.slider-control {
+  position: absolute;
+  top: 45%;
+  background-color: #fff;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--blue);
+  border-radius: 50%;
+}
+
+.left-control {
+  margin-left: .5em;
+}
+
+.right-control {
+  right: 0;
+  margin-right: .5em;
+}
+
+.left, .right {
+  position: relative;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: 12px auto;
+  height: 15px;
+  width: 15px;
+  transform: rotate(45deg);
+  border-left: 1px solid var(--blue);
+  border-bottom: 1px solid var(--blue);
+}
+
+.right {
+  transform: rotate(-135deg);
 }
 
 .dorada {
-    background-image: url("../images/dorada-swieza.png");
+  background-image: url("../images/dorada-swieza.png");
 }
 
 .salmon {
-    background-image: url("../images/pstrag.jpg");
+  background-image: url("../images/pstrag.jpg")
 }
 
 .shrimps {
-    background-image: url("../images/krewetki.jpg");
+  background-image: url("../images/krewetki.jpg");
 }
 
 .mackerel-w {
-    background-image: url("../images/makrela-wedzona.jpg");
+  background-image: url("../images/makrela-wedzona.jpg");
 }
 
 .lobster {
-    background-image: url("../images/lobster.jpg");
+  background-image: url("../images/lobster.jpg");
 }
 
 .tuna {
-    background-image: url("../images/tuna-fish.jpg");
+  background-image: url("../images/tuna-fish.jpg");
 }
 
 .mussels {
-    background-image: url("../images/mussels.jpg");
+  background-image: url("../images/mussels.jpg");
 }
 
 .mackerel-m {
-    background-image: url("../images/mackerel.jpg");
+  background-image: url("../images/mackerel.jpg");
+}
+
+.assortment-item {
+  background-blend-mode: multiply;
+  background-color: rgba(0, 161, 235, 0.5);
+  height: 270px;
+  background-size: cover;
+  flex: 0 0 270px;
+  margin: 0 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .assortment-item__header, .assortment-item__price, .assortment-item__text {
-    padding: 0;
-    margin: 0;
-    text-align: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.25em;
+}
+
+.assortment-item__header {
+  margin-bottom: .75em;
+  text-transform: uppercase;
+}
+
+.assortment-item__price {
+  font-size: 1.5em;
 }
 
 .assortment-item__text {
-    display: none;
+  display: none;
+}
+
+.full-assortment {
+  display: block;
+  width: 10%;
+  background-color: var(--blue);
+  color: #fff;
+  padding: 1.5em;
+  margin: 2.5em auto 0 auto;
+  border-radius: .25em;
+  font-size: .65em;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+}
+
+.full-assortment:hover {
+  background: linear-gradient( -180deg, #8CDBFF 0%, #00B3F0 100%);
 }
