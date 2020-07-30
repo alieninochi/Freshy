@@ -26,7 +26,6 @@ header {
 }
 
 #swieze, #ryby, #com {
-    font-family: Montserrat, sans-serif;
     text-transform: uppercase;
 }
 
@@ -35,7 +34,6 @@ header {
 }
 
 #com {
-    font-family: Montserrat, sans-serif;
     font-weight: lighter;
     text-transform: uppercase;
 }
@@ -49,7 +47,6 @@ header {
 
 .menu-box a {
     padding-right: .625em;
-    font-family: Montserrat, sans-serif;
     font-weight: bold;
     font-size: .875em;
     text-decoration: none;
@@ -65,7 +62,6 @@ a[href="tel:500110110"] {
 
 .main-header {
     padding-top: .75em;
-    font-family: Montserrat, sans-serif;
     font-weight: bold;
     font-size: 5em;
     text-align: center;

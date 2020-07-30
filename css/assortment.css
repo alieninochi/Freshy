@@ -13,7 +13,6 @@
 
 .assortment-header {
   color: var(--blue);
-  font-family: Montserrat, sans-serif;
   font-size: 2em;
   text-transform: uppercase;
   font-weight: bold;
@@ -136,7 +135,6 @@
   width: 100%;
   text-align: center;
   color: #fff;
-  font-family: Montserrat, sans-serif;
   font-size: 1.25em;
 }
 
@@ -162,7 +160,6 @@
   margin: 2.5em auto 0 auto;
   border-radius: .25em;
   font-size: .65em;
-  font-family: Montserrat, sans-serif;
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
